@@ -10,17 +10,26 @@ Desenvolver um sistema de console em .NET que:
 
 - O menu de opções deverá aparecer ate que o usuário decida sair do sistema.
 
-**Requisitos**
+### Requisitos
 Cadastrar Livros:
 
-O sistema deve permitir que o administrador cadastre novos livros no sistema, :
+- O sistema deve permitir que o administrador cadastre novos livros no sistema, :
 
-O sistema deve respeitar um limite de **3 livros por usuário.**
+- O sistema deve respeitar um limite de **3 livros por usuário.**
 
-O usuário pode devolver livros
+- O usuário pode devolver livros
 
-O usuário ou administrador pode consultar o catálogo da biblioteca, exibindo o título, autor,
-gênero e quantidade disponível de cada livro.
+- O usuário ou administrador pode consultar o catálogo da biblioteca, exibindo:
+    - Título
+    - Autor  
+    - Gênero 
+    - Quantidade disponível de cada livro.
 
-Antes de um novo empréstimo, o sistema deve verificar se o usuário já atingiu o limite de 3
-livros emprestados.
+- *Antes de um novo empréstimo, o sistema deve verificar se o usuário já atingiu o limite de 3
+livros emprestados.*
+### Backlog
+- Implementar função que armazene a quantidade de livros específicos.
+- Recriar interface mais amigável ao cliente.
+- Criar opção para salvar atividades do usuário em um arquivo de texto para referência futura.
+### Conclusão
+O projeto inclui funcionalidades para cadastro, consulta e devolução de livros, respeitando regras como limite de empréstimos e tipos de conta. Essa atividade combina habilidades técnicas com a importância de um gerenciamento eficaz em bibliotecas.
