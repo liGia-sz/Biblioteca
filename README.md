@@ -18,7 +18,7 @@ Cadastrar Livros:
 - O sistema deve respeitar um limite de **3 livros por usuário.**
 
 - O usuário pode devolver livros
-- - *Antes de um novo empréstimo, o sistema deve verificar se o usuário já atingiu o limite de 3
+- *Antes de um novo empréstimo, o sistema deve verificar se o usuário já atingiu o limite de 3
 livros emprestados.*
 
 - O usuário ou administrador pode consultar o catálogo da biblioteca, exibindo:
