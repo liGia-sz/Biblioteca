@@ -18,6 +18,8 @@ Cadastrar Livros:
 - O sistema deve respeitar um limite de **3 livros por usuário.**
 
 - O usuário pode devolver livros
+- - *Antes de um novo empréstimo, o sistema deve verificar se o usuário já atingiu o limite de 3
+livros emprestados.*
 
 - O usuário ou administrador pode consultar o catálogo da biblioteca, exibindo:
     - Título
@@ -25,8 +27,7 @@ Cadastrar Livros:
     - Gênero 
     - Quantidade disponível de cada livro.
 
-- *Antes de um novo empréstimo, o sistema deve verificar se o usuário já atingiu o limite de 3
-livros emprestados.*
+
 ### Backlog
 - Implementar função que armazene a quantidade de livros específicos.
 - Recriar interface mais amigável ao cliente.
